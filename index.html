@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
+
+    <title>Solve Sage</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img class="logo" src="Assets/logo.png" alt="">
+        </div>
+        <div class="main_body">
+            <div class="calculator">
+                <input type="text" class="calculator-screen" id="screen" readonly>
+                <div class="calculator-keys">
+                    <button class="operator" value="^2">( )<sup>2</sup></button>
+                    <button class="operator" value="**">x<sup>2</sup></button>
+                    <button class="clear" value="clear">C</button>
+                    <button class="backspace" value="backspace">⌫</button>
+
+                    <button class="operator" value="sqrt">√</button>
+                    <button class="operator" value="(">(</button>
+                    <button class="operator" value=")">)</button>
+                    <button class="operator" value="/">&divide;</button>
+
+                    <button value="7">7</button>
+                    <button value="8">8</button>
+                    <button value="9">9</button>
+                    <button class="operator" value="*">&times;</button>
+
+                    <button value="4">4</button>
+                    <button value="5">5</button>
+                    <button value="6">6</button>
+                    <button class="operator" value="-">-</button>
+
+                    <button value="1">1</button>
+                    <button value="2">2</button>
+                    <button value="3">3</button>
+                    <button class="operator" value="+">+</button>
+
+                    <button value="0">0</button>
+                    <button value=".">.</button>
+                    <button class="unit-conversion" onclick="redirectToUnitConversion()">Unit Conversion</button>
+                    <button class="equal-sign" value="=">=</button>
+    
+                </div>
+            </div>
+        </div>
+        
+    </div> 
+    <script src="index.js"></script>
+</body>
+</html>
+
+
+
+
